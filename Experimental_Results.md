@@ -1,8 +1,7 @@
 # CIA-GCL-Experimental-Results
 ## 1.T-test results
-We have included the t-test results comparing our method with other baselines. The details are shown in Table 1. 
 
-**Table 1: T-test results on three datasets compared with baselines**.**Note:** Significance levels(Sig. level) are indicated as follows: p < 0.05 (\*), *p* < 0.01 (\*\*), *p* < 0.001 (\*\*\*), *p* ≥ 0.05 (n.s., not significant)
+**Table 1: T-test results on three datasets compared with baselines**.**Note:** Significance levels(Sig. level) are indicated as follows: p < 0.05 (\*), *p* < 0.01 (\*\*), *p* < 0.001 (\*\*\*), *p* ≥ 0.05 (n.s., not significant). Although our performance on a single dataset is close to that of some other methods, **the overall performance** on the three datasets **is statistically significantly different from** that of other comparison methods.
 
 | Dataset     | ABIDE1   |            | ABIDE2   |            | ADHD200  |            | ALL      |            |
 | ----------- | -------- | ---------- | -------- | ---------- | -------- | ---------- | -------- | ---------- |
@@ -16,19 +15,17 @@ We have included the t-test results comparing our method with other baselines. T
 | BrainGB     | 3.80E-04 | ***        | 3.40E-02 | *          | 7.50E-03 | **         | 2.20E-04 | ***        |
 | DHML        | 1.40E-01 | n.s.       | 9.80E-05 | ***        | 5.70E-02 | n.s.       | 6.80E-04 | ***        |
 
-Although our performance on a single dataset is close to that of some other methods, **the overall performance** on the three datasets **is statistically significantly different from** that of other comparison methods.
+
 ## 2.New comparative experiment
-Based on feedback from all reviewers, we have added **seven baseline methods**, including:
 
-- A self-supervised method (METAFormer 2023)[1] 
+**Table 2: Comparative experiments of other methods of ABIDE 1 and AAL atlas**
+- A self-supervised method (METAFormer 2023)[1] (Self-supervised method based on masked autoencoder)
 
-- Two approaches targeting generalization (CIGA 2022)[2], （BrainIB 2024)[3],
+- Two approaches targeting OOD generalization (CIGA 2022)[2], （BrainIB 2024)[3],
 
 - Two methods for fMRI analysis (BrainNetTF 2022)[4], (BolT 2023)[5]
 
 - Two contrastive learning-based models (A-GCL 2023)[6]，(Contrasformer 2024)[7]
-
-**Table 2: Comparative experiments of other methods of ABIDE 1 and AAL atlas**
 
 | Dataset | Method        | Accuracy   | Precision  | Recall     | F1-score   | bAcc       | AUC        | Avg        |
 | ------- | ------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -40,19 +37,7 @@ Based on feedback from all reviewers, we have added **seven baseline methods**, 
 |         | A-GCL         | 72.19±2.05 | 70.76±3.98 | 73.52±2.83 | 73.00±3.77 | 70.14±2.80 | 75.46±3.05 | 72.51±1.93 |
 |         | Contrasformer | 68.9±2.33  | 67.68±3.96 | 70.91±6.04 | 68.70±2.74 | 68.86±2.23 | 70.68±2.64 | 69.29±1.24 |
 
-[1]Pretraining is all you need: A multi-atlas enhanced transformer framework for autism spectrum disorder classification
-
-[2]Learning causally invariant representations for out-of-distribution generalization on graphs
-
-[3]Brainib: Interpretable brain network-based psychiatric diagnosis with graph information bottleneck
-
-[4]Brain network transformer
-
-[5]BolT: Fused window transformers for fMRI time series analysis[J]. Medical image analysis, 2023, 88: 102841.
-
-[6]A-GCL: Adversarial graph contrastive learning for fMRI analysis to diagnose neurodevelopmental disorders
-
-[7]Contrasformer: a brain network contrastive transformer for neurodegenerative condition identification
+[1]Pretraining is all you need: A multi-atlas enhanced transformer framework for autism spectrum disorder classification；[2]Learning causally invariant representations for out-of-distribution generalization on graphs；[3]Brainib: Interpretable brain network-based psychiatric diagnosis with graph information bottleneck；[4]Brain network transformer；[5]BolT: Fused window transformers for fMRI time series analysis[J]. Medical image analysis, 2023, 88: 102841.；[6]A-GCL: Adversarial graph contrastive learning for fMRI analysis to diagnose neurodevelopmental disorders；[7]Contrasformer: a brain network contrastive transformer for neurodegenerative condition identification
 ## 3.Summary of Notations
 **Table 4: Notations and their descriptions**
 
