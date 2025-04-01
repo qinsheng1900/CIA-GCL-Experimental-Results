@@ -52,8 +52,8 @@
 ## 3.Summary of Notations
 **Table 4: Notations and their descriptions**
 
-| Symbol                             | Meaning                                                      |
-|:-------------------:| ------------------------------------------------------------ |
+|        Symbol        |         Meaning         |
+|:--------------------:|:-----------------------:|
 | $\mathcal{G}$                      | Brain graph data set                                         |
 | $\mathcal{E}，\acute{\mathcal{E}}$ | Environment set                                              |
 | $V$                                | The set of nodes in the graph                                |
