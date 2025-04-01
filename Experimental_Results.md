@@ -20,7 +20,7 @@
 
 **Table 2: Comparative experiments of other methods of ABIDE 1 and AAL atlas** (a)self-supervised method (METAFormer 2023) (Self-supervised method based on masked autoencoder);(b)two approaches targeting OOD generalization (CIGA 2022，BrainIB 2024); (c)two methods for fMRI analysis (BrainNetTF 2022，BolT 2023);(d)two contrastive learning-based models (A-GCL 2023，Contrasformer 2024)
 
-| Dataset |                   Method                    |  Accuracy  | Precision  |   Recall   |  F1-score  |    bAcc    |    AUC     |    Avg     |
+| Dataset |                    Method                    |  Accuracy  | Precision  |   Recall   |  F1-score  |    bAcc    |    AUC     |    Avg     |
 | :-----: | :-----------------------------------------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | ABIDE I |  <a href="#ref1">METAFormer (2023)[1]</a>  | 70.31±2.86 | 71.80±3.20 | 74.38±6.64 | 72.85±3.29 | 69.91±2.80 | 72.29±3.54 | 71.18±2.91 |
 |         |     <a href="#ref2">CIGA（2022）[2]</a>      | 66.96±1.64 | 69.55±2.42 | 57.84±6.20 | 62.92±3.43 | 66.75±1.69 | 67.53±2.81 | 65.26±4.22 |
@@ -52,7 +52,7 @@
 ## 3.Summary of Notations
 **Table 4: Notations and their descriptions**
 
-|               Symbol               |                           Meaning                            |
+|               Symbol               |                            Meaning                            |
 | :--------------------------------: |:------------------------------------------------------------:|
 | $\mathcal{G}$                      | Brain graph data set                                         |
 | $\mathcal{E}，\acute{\mathcal{E}}$ | Environment set                                              |
