@@ -40,6 +40,9 @@
 [1]Pretraining is all you need: A multi-atlas enhanced transformer framework for autism spectrum disorder classification；[2]Learning causally invariant representations for out-of-distribution generalization on graphs；[3]Brainib: Interpretable brain network-based psychiatric diagnosis with graph information bottleneck；[4]Brain network transformer；[5]BolT: Fused window transformers for fMRI time series analysis；[6]A-GCL: Adversarial graph contrastive learning for fMRI analysis to diagnose neurodevelopmental disorders；[7]Contrasformer: a brain network contrastive transformer for neurodegenerative condition identification
 
 **Figure 1:Comparative experiments of all methods of ABIDE 1 and AAL atlas**
+
+![image](shttps://github.com/qinsheng1900/CIA-GCL-Experimental-Results/blob/main/all_baseline.png)
+
 ## 3.Summary of Notations
 **Table 4: Notations and their descriptions**
 
