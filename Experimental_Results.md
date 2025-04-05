@@ -1,19 +1,26 @@
 # CIA-GCL-Experimental-Results
 ## 1.T-test results
 
-**Table 1: T-test results on three datasets compared with baselines**.**Note:** Significance levels(Sig. level) are indicated as follows: p < 0.05 (\*), *p* < 0.01 (\*\*), *p* < 0.001 (\*\*\*), *p* ≥ 0.05 (n.s., not significant). Although our performance on a single dataset is close to that of some other methods, **the overall performance** on the three datasets **is statistically significantly different from** that of other comparison methods.
+**Table 1: T-test results on three datasets compared with all baselines**.**Note:** Significance levels(Sig. level) are indicated as follows: p < 0.05 (\*), *p* < 0.01 (\*\*), *p* < 0.001 (\*\*\*), *p* ≥ 0.05 (n.s., not significant). Although our performance on a single dataset is close to that of some other methods, **the overall performance** on the three datasets **is statistically significantly different from** that of other comparison methods.
 
-|   Dataset   |  ABIDE1  |            |  ABIDE2  |            |  ADHD200 |            |   ALL    |            |
-| :---------: | :------: | :--------: | :------: | :--------: | :------: | :--------: | :------: | :--------: |
-|   Method    | p-value  | Sig. level | p-value  | Sig. level | p-value  | Sig. level | p-value  | Sig. level |
-|     RF      | 2.00E-08 |    ***     | 9.40E-05 |    ***     | 1.70E-03 |    ***     | 1.80E-07 |    ***     |
-|     SVM     | 1.10E-04 |    ***     | 4.30E-05 |    ***     | 4.00E-03 |     **     | 6.20E-07 |    ***     |
-| BrainNetCNN | 2.40E-07 |    ***     | 3.40E-04 |    ***     | 3.90E-02 |     *      | 2.90E-06 |    ***     |
-|  BNC-DGHL   | 2.50E-02 |     *      | 3.30E-02 |     *      | 6.80E-02 |    n.s.    | 3.30E-03 |     **     |
-|    GATE     | 2.40E-03 |     **     | 9.30E-02 |    n.s.    | 6.60E-03 |     **     | 1.50E-03 |    ***     |
-|  BrainUSL   | 2.40E-05 |    ***     | 1.60E-03 |    ***     | 1.30E-02 |     *      | 9.00E-08 |    ***     |
-|   BrainGB   | 3.80E-04 |    ***     | 3.40E-02 |     *      | 7.50E-03 |     **     | 2.20E-04 |    ***     |
-|    DHML     | 1.40E-01 |    n.s.    | 9.80E-05 |    ***     | 5.70E-02 |    n.s.    | 6.80E-04 |    ***     |
+| Dataset                | ABIDE1   |             | ABIDE2   |             | ADHD200  |             |  ALL     |              |
+|:----------------------:|:--------:|:-----------:|:--------:|:-----------:|:--------:|:-----------:|:--------:|:------------:|
+| Method                 | p-value  | Sig. level  | p-value  | Sig. level  | p-value  | Sig. level  | p-value  | Sig. level   |
+| RF(2008)               | 2.00E-08 | ***         | 9.40E-05 | ***         | 1.70E-03 | ***         | 1.80E-07 | ***          |
+| SVM(2010)              | 1.10E-04 | ***         | 4.30E-05 | ***         | 4.00E-03 | **          | 6.20E-07 | ***          |
+| BrainNetCNN(2017)      | 2.40E-07 | ***         | 3.40E-04 | ***         | 3.90E-02 | *           | 2.90E-06 | ***          |
+| BNC-DGHL(2022)         | 2.50E-02 | *           | 3.30E-02 | *           | 6.80E-02 | n.s.        | 3.30E-03 | **           |
+| GATE(2022)             | 2.40E-03 | **          | 9.30E-02 | n.s.        | 6.60E-03 | **          | 1.50E-03 | ***          |
+| BrainUSL(2023)         | 2.40E-05 | ***         | 1.60E-03 | ***         | 1.30E-02 | *           | 9.00E-08 | ***          |
+| BrainGB(2023)          | 3.80E-04 | ***         | 3.40E-02 | *           | 7.50E-03 | **          | 2.20E-04 | ***          |
+| DHML(2023)             | 1.40E-01 | n.s.        | 9.80E-05 | ***         | 5.70E-02 | n.s.        | 6.80E-04 | ***          |
+| CI-GNN(2024)           | 2.50E-04 | ***         | 5.30E-01 | n.s.        | 3.90E-02 | *           | 3.50E-03 | **           |
+| METAFormer(2023)[1]    | 1.77E-03 | **          | 1.69E-03 | **          | 1.87E-03 | **          | 7.17E-03 | **           |
+| CIGA(2022)[2]          | 1.21E-03 | **          | 2.94E-02 | *           | 6.61E-04 | ***         | 4.00E-08 | ***          |
+| BrainIB(2024)[3]       | 1.93E-06 | ***         | 9.63E-02 | n.s.        | 1.15E-02 | *           | 6.64E-04 | ***          |
+| BrainNetTF(2022)[4]    | 1.39E-04 | ***         | 6.22E-03 | **          | 6.91E-03 | **          | 9.52E-04 | **           |
+| BoIT(2023)[5]          | 1.72E-05 | ***         | 9.29E-01 | n.s.        | 8.92E-03 | **          | 4.24E-03 | **           |
+| Contrasformer(2024)[6] | 2.00E-06 | ***         | 5.87E-04 | ***         | 6.87E-02 | n.s.        | 1.11E-03 | **           |
 
 
 ## 2.New comparative experiment
